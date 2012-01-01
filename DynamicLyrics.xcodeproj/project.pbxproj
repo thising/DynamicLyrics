@@ -7,30 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0204462913EEFEBF0032CB09 /* QianQianLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204462813EEFEBF0032CB09 /* QianQianLyrics.m */; };
+		0204462D13EEFEE10032CB09 /* RequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204462C13EEFEE10032CB09 /* RequestSender.m */; };
+		021D4F831460F36500DD18C8 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D4F821460F36500DD18C8 /* MyClass.m */; };
+		02300A5013F4F52200387D56 /* KeyValue_SearchLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 02300A4F13F4F52200387D56 /* KeyValue_SearchLyrics.m */; };
+		024413E813EFBE45002930CE /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 024413E713EFBE45002930CE /* RegexKitLite.m */; };
+		0283394413F7F25D00C43D31 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0283394313F7F25D00C43D31 /* icon.icns */; };
 		02CAB20413EBA7BC00E6DCB0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CAB20313EBA7BC00E6DCB0 /* Cocoa.framework */; };
 		02CAB20E13EBA7BC00E6DCB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02CAB20C13EBA7BC00E6DCB0 /* InfoPlist.strings */; };
 		02CAB21013EBA7BC00E6DCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CAB20F13EBA7BC00E6DCB0 /* main.m */; };
 		02CAB21413EBA7BC00E6DCB0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02CAB21213EBA7BC00E6DCB0 /* Credits.rtf */; };
 		02CAB21713EBA7BC00E6DCB0 /* Lyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CAB21613EBA7BC00E6DCB0 /* Lyrics.m */; };
-		02CAB21A13EBA7BC00E6DCB0 /* Lyrics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CAB21813EBA7BC00E6DCB0 /* Lyrics.xib */; };
 		02CAB21D13EBA7BC00E6DCB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CAB21B13EBA7BC00E6DCB0 /* MainMenu.xib */; };
+		02CAB22513EBA92100E6DCB0 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CAB22413EBA92100E6DCB0 /* MainController.m */; };
+		02CAB22E13EBAD3100E6DCB0 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CAB22D13EBAD3100E6DCB0 /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		02272A2E13F6499A008E755A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0204462713EEFEBF0032CB09 /* QianQianLyrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QianQianLyrics.h; sourceTree = "<group>"; };
+		0204462813EEFEBF0032CB09 /* QianQianLyrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QianQianLyrics.m; sourceTree = "<group>"; };
+		0204462B13EEFEE10032CB09 /* RequestSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSender.h; sourceTree = "<group>"; };
+		0204462C13EEFEE10032CB09 /* RequestSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSender.m; sourceTree = "<group>"; };
+		021D4F811460F36500DD18C8 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		021D4F821460F36500DD18C8 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		02300A4E13F4F52200387D56 /* KeyValue_SearchLyrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValue_SearchLyrics.h; sourceTree = "<group>"; };
+		02300A4F13F4F52200387D56 /* KeyValue_SearchLyrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValue_SearchLyrics.m; sourceTree = "<group>"; };
+		024413E613EFBE45002930CE /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		024413E713EFBE45002930CE /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		0283394313F7F25D00C43D31 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		02CAB1FF13EBA7BC00E6DCB0 /* DynamicLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CAB20313EBA7BC00E6DCB0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		02CAB20613EBA7BC00E6DCB0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		02CAB20713EBA7BC00E6DCB0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		02CAB20813EBA7BC00E6DCB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		02CAB20B13EBA7BC00E6DCB0 /* DynamicLyrics-Info.plist */ = {isa = PBXFileReference; path = "DynamicLyrics-Info.plist"; sourceTree = "<group>"; };
+		02CAB20B13EBA7BC00E6DCB0 /* DynamicLyrics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicLyrics-Info.plist"; sourceTree = "<group>"; };
 		02CAB20D13EBA7BC00E6DCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		02CAB20F13EBA7BC00E6DCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		02CAB21113EBA7BC00E6DCB0 /* DynamicLyrics-Prefix.pch */ = {isa = PBXFileReference; path = "DynamicLyrics-Prefix.pch"; sourceTree = "<group>"; };
+		02CAB21113EBA7BC00E6DCB0 /* DynamicLyrics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicLyrics-Prefix.pch"; sourceTree = "<group>"; };
 		02CAB21313EBA7BC00E6DCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		02CAB21513EBA7BC00E6DCB0 /* Lyrics.h */ = {isa = PBXFileReference; path = Lyrics.h; sourceTree = "<group>"; };
+		02CAB21513EBA7BC00E6DCB0 /* Lyrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lyrics.h; sourceTree = "<group>"; };
 		02CAB21613EBA7BC00E6DCB0 /* Lyrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyrics.m; sourceTree = "<group>"; };
-		02CAB21913EBA7BC00E6DCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Lyrics.xib; sourceTree = "<group>"; };
 		02CAB21C13EBA7BC00E6DCB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02CAB22313EBA92100E6DCB0 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		02CAB22413EBA92100E6DCB0 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		02CAB22813EBACEF00E6DCB0 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		02CAB22D13EBAD3100E6DCB0 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CAB22E13EBAD3100E6DCB0 /* ScriptingBridge.framework in Frameworks */,
 				02CAB20413EBA7BC00E6DCB0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +79,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021D4F7F1460F32400DD18C8 /* LyricsWindow */ = {
+			isa = PBXGroup;
+			children = (
+				021D4F811460F36500DD18C8 /* MyClass.h */,
+				021D4F821460F36500DD18C8 /* MyClass.m */,
+			);
+			name = LyricsWindow;
+			sourceTree = "<group>";
+		};
+		029BAFDA13F4AB64007092D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0204462713EEFEBF0032CB09 /* QianQianLyrics.h */,
+				0204462813EEFEBF0032CB09 /* QianQianLyrics.m */,
+				0204462B13EEFEE10032CB09 /* RequestSender.h */,
+				0204462C13EEFEE10032CB09 /* RequestSender.m */,
+				02CAB21513EBA7BC00E6DCB0 /* Lyrics.h */,
+				02CAB21613EBA7BC00E6DCB0 /* Lyrics.m */,
+				024413E613EFBE45002930CE /* RegexKitLite.h */,
+				024413E713EFBE45002930CE /* RegexKitLite.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		02CAB1F413EBA7BC00E6DCB0 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +123,7 @@
 		02CAB20213EBA7BC00E6DCB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02CAB22D13EBAD3100E6DCB0 /* ScriptingBridge.framework */,
 				02CAB20313EBA7BC00E6DCB0 /* Cocoa.framework */,
 				02CAB20513EBA7BC00E6DCB0 /* Other Frameworks */,
 			);
@@ -84,11 +143,14 @@
 		02CAB20913EBA7BC00E6DCB0 /* DynamicLyrics */ = {
 			isa = PBXGroup;
 			children = (
-				02CAB21513EBA7BC00E6DCB0 /* Lyrics.h */,
-				02CAB21613EBA7BC00E6DCB0 /* Lyrics.m */,
-				02CAB21813EBA7BC00E6DCB0 /* Lyrics.xib */,
+				021D4F7F1460F32400DD18C8 /* LyricsWindow */,
+				029BAFDA13F4AB64007092D7 /* Classes */,
 				02CAB21B13EBA7BC00E6DCB0 /* MainMenu.xib */,
 				02CAB20A13EBA7BC00E6DCB0 /* Supporting Files */,
+				02CAB22313EBA92100E6DCB0 /* MainController.h */,
+				02CAB22413EBA92100E6DCB0 /* MainController.m */,
+				02300A4E13F4F52200387D56 /* KeyValue_SearchLyrics.h */,
+				02300A4F13F4F52200387D56 /* KeyValue_SearchLyrics.m */,
 			);
 			path = DynamicLyrics;
 			sourceTree = "<group>";
@@ -96,6 +158,8 @@
 		02CAB20A13EBA7BC00E6DCB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0283394313F7F25D00C43D31 /* icon.icns */,
+				02CAB22813EBACEF00E6DCB0 /* iTunes.h */,
 				02CAB20B13EBA7BC00E6DCB0 /* DynamicLyrics-Info.plist */,
 				02CAB20C13EBA7BC00E6DCB0 /* InfoPlist.strings */,
 				02CAB20F13EBA7BC00E6DCB0 /* main.m */,
@@ -115,6 +179,7 @@
 				02CAB1FB13EBA7BC00E6DCB0 /* Sources */,
 				02CAB1FC13EBA7BC00E6DCB0 /* Frameworks */,
 				02CAB1FD13EBA7BC00E6DCB0 /* Resources */,
+				02272A2E13F6499A008E755A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -154,8 +219,8 @@
 			files = (
 				02CAB20E13EBA7BC00E6DCB0 /* InfoPlist.strings in Resources */,
 				02CAB21413EBA7BC00E6DCB0 /* Credits.rtf in Resources */,
-				02CAB21A13EBA7BC00E6DCB0 /* Lyrics.xib in Resources */,
 				02CAB21D13EBA7BC00E6DCB0 /* MainMenu.xib in Resources */,
+				0283394413F7F25D00C43D31 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +233,12 @@
 			files = (
 				02CAB21013EBA7BC00E6DCB0 /* main.m in Sources */,
 				02CAB21713EBA7BC00E6DCB0 /* Lyrics.m in Sources */,
+				02CAB22513EBA92100E6DCB0 /* MainController.m in Sources */,
+				0204462913EEFEBF0032CB09 /* QianQianLyrics.m in Sources */,
+				0204462D13EEFEE10032CB09 /* RequestSender.m in Sources */,
+				024413E813EFBE45002930CE /* RegexKitLite.m in Sources */,
+				02300A5013F4F52200387D56 /* KeyValue_SearchLyrics.m in Sources */,
+				021D4F831460F36500DD18C8 /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +261,6 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		02CAB21813EBA7BC00E6DCB0 /* Lyrics.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02CAB21913EBA7BC00E6DCB0 /* en */,
-			);
-			name = Lyrics.xib;
-			sourceTree = "<group>";
-		};
 		02CAB21B13EBA7BC00E6DCB0 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +281,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -229,9 +293,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -244,22 +308,31 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
 		02CAB22113EBA7BC00E6DCB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLyrics/DynamicLyrics-Prefix.pch";
 				INFOPLIST_FILE = "DynamicLyrics/DynamicLyrics-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,9 +341,16 @@
 		02CAB22213EBA7BC00E6DCB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLyrics/DynamicLyrics-Prefix.pch";
 				INFOPLIST_FILE = "DynamicLyrics/DynamicLyrics-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,6 +375,7 @@
 				02CAB22213EBA7BC00E6DCB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
