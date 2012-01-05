@@ -27,12 +27,14 @@
     IBOutlet NSComboBox *comboBox_Server;
     IBOutlet NSTableView *tableView;
     
+    //IBOutlet NSWindow *lyricsWindow;
+    
     NSWindow *window;
 }
 -(void) Anylize:(NSString*)s;
 NSInteger qSortCompare(id num1, id num2, void *context);
 //@property (nonatomic,retain) IBOutlet NSPanel *searchPanel;
-@property (assign) IBOutlet NSWindow *lyricsWindow;
+//@property (assign) IBOutlet NSWindow *lyricsWindow;
 
 -(IBAction)menuClicked:(id)sender; 
 -(IBAction)startSearch:(id)sender;

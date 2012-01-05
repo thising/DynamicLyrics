@@ -14,7 +14,7 @@
 #import "KeyValue_SearchLyrics.h"
 @implementation MainController
 
-@synthesize lyricsWindow;
+//@synthesize lyricsWindow;
 
 
 - (id)init
@@ -66,6 +66,7 @@
     [tableView setTarget:self];
     [tableView setDoubleAction:@selector(tableViewDoubleClick:)];
     
+#if 0
 	[lyricsWindow setHasShadow:NO];
 	[lyricsWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0 alpha:0.3]];
 	[lyricsWindow setLevel:NSDockWindowLevel];
@@ -73,6 +74,7 @@
 	[lyricsWindow setAcceptsMouseMovedEvents:NO];
 	[lyricsWindow center];
 	[lyricsWindow orderFront:self];
+#endif
 
 }
 
